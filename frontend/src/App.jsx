@@ -53,7 +53,7 @@ const until = period === "어제" ? getDateStr(-1) : getDateStr(0);
 
   return (
     <div style={{ fontFamily: "sans-serif", maxWidth: 420, margin: "0 auto" }}>
-      <div style={{ background: "#042C53", padding: "16px 16px 12px", position: "sticky", top: 0, zIndex: 10 }}>
+      <div style={{ background: "#80235B", padding: "16px 16px 12px", position: "sticky", top: 0, zIndex: 10 }}>
         <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 12 }}>
           <span style={{ color: "#B5D4F4", fontSize: 13, fontWeight: 500 }}>검색광고 보고서</span>
           <span style={{ color: "#85B7EB", fontSize: 12 }}>{since}</span>
